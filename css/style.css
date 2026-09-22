@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background-color: #0A0A0A;
+}
+
+h1 {
+    color: #6200EA;
+}
+
+nav img {
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color:  #1A1A1A;
+}
+
+#especialidades {
+    color: #6200EA;
+}
+
+#itens {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 0 5%;
+}
+
+#paginas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #00E5FF
+}
+
+#banner img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    object-position: center; 
+}
+
+#banner {
+    width: 100%;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 45px;
+    color: #6200EA
+}
+
+#sobre {
+    padding: 10px;
+    color: #B0BEC5;
+}
+#consertos {
+    padding: 20px;
+}
+
+.cards {
+  background-color: #1A1A26;
+  border: 1px solid #7952B3;
+  border-radius: 12px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo {
+    color: #FFFFFF;
+}
+
+.texto {
+    color: #A0A0B8;
+}
+
+.cards img {
+     width: 100%;
+     height: 700px; 
+     object-fit: cover;
+}
+
+#galeria {
+   display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.tabela-bolos {
+  width: 100%;
+  max-width: 1100px;
+  margin: 20px auto;
+  background-color: #1A1A26;
+  color: #00FF88;
+  font-family: Arial, sans-serif;
+  border-radius: 5px;
+}
+
+.tabela-bolos th {
+  background-color: #252538;
+  color: #00F0FF;
+  padding: 14px 18px;
+  text-align: left;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.tabela-mecanica td {
+  padding: 12px 18px;
+}
+
+footer {
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+hr {
+    background-color: #333333
+}
+
+#feito {
+    padding: 15px;
+    color: #B0BEC5;
+    text-align: center;
+}
+
+li {
+    font-size: 17px;
+    padding: 10px;
+    margin: 15px;
+}
